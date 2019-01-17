@@ -5,7 +5,7 @@ steps:
 - name: test
   image: python:3.7
   commands:
-  - test/test.py
+  - python test/test.py
 
 trigger:
   branch:

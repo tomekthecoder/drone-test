@@ -6,3 +6,7 @@ steps:
   image: python:3.7
   commands:
   - test/test.py
+
+trigger:
+  branch:
+  - master
